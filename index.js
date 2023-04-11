@@ -10,5 +10,5 @@ const btnStop = document.querySelector(".sorts3");
 btnStop.addEventListener("click", stopAnimation);
 
 const stopAnimation = () => {
-  lumos.pause();
+  gsap.pause();
 };
